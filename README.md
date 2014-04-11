@@ -9,7 +9,7 @@ ISO / FIPS code conversions
 Convert `FIPS 10-4` to `ISO 3166-1` code, or vice versa:
 
 ```php
-require_once 'src/DatingVIP/geo/Country_Code.php';
+require_once 'vendor/autoload.php';
 
 use DatingVIP\geo\Country_Code;
 
