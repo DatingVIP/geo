@@ -38,7 +38,7 @@ $postal_code = new Postal_Code ();
 var_dump ($postal_code->coveringCountry ('SG'));
 // bool(true)
 
-// get an array of human readable of postal codes formats for given country
+// get an array of human readable postal code formats for given country
 var_dump ($postal_code->getFormats ('RS'));
 // array(1) {
 //  [0]=>
@@ -62,3 +62,8 @@ if ($postal_code->contains ('RS', '11000, Beograd'))
 	// string(5) "11000"
 }
 ```
+
+Map of wildcards to regexes:
++ `#` = `0-9`
++ `@` = `a-zA-Z`
++ `*` = `a-zA-Z0-9`
