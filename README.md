@@ -26,7 +26,7 @@ Postal Code Validation
 Validate or parse Postal Codes for almost any country (using regular expressions).
 Country codes are accepted in `ISO 3166-1` format.
 
-```
+```php
 require_once 'vendor/autoload.php';
 
 use DatingVIP\geo\Postal_Code;
@@ -61,5 +61,4 @@ if ($postal_code->contains ('RS', '11000, Beograd'))
 	var_dump ($postal_code->capture ('RS', '11000, Beograd'));
 	// string(5) "11000"
 }
-
 ```
