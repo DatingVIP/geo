@@ -2,7 +2,7 @@
     "name": "datingvip/geo",
     "type": "library",
     "description": "Geographical data helpers",
-    "keywords": ["geo"],
+    "keywords": ["geo", "postal code", "validation"],
     "homepage": "https://github.com/DatingVIP/geo",
     "license": "LGPLv3",
     "authors": [
