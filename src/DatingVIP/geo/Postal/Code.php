@@ -389,7 +389,7 @@ class Postal_Code
  */
 	public function getFormats ($country_code)
 	{
-		if (!$this->isCountryCovered ($country_code))
+		if (!$this->coveringCountry ($country_code))
 		{
 			throw new Validation_Exception (sprintf ('Invalid country code: "%s"', $country_code));
 		}
