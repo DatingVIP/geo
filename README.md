@@ -67,3 +67,49 @@ Map of wildcards to regexes:
 + `#` = `0-9`
 + `@` = `a-zA-Z`
 + `*` = `a-zA-Z0-9`
+
+State Codes
+===========
+
+`ISO 3166-2` principal subdivisions (provinces, states, regions) utility class
+
+```php
+require_once 'vendor/autoload.php';
+
+use DatingVIP\geo\State_Code;
+
+$state_code = new State_Code ();
+
+// get available states/regions in given country
+var_dump ($state_code->getCountry ('CY'));
+//array(6) {
+//  ["04"]=>
+//  string(12) "Ammóchostos"
+//  ["06"]=>
+//  string(9) "Kerýneia"
+//  ["03"]=>
+//  string(8) "Lárnaka"
+//  ["01"]=>
+//  string(9) "Lefkosía"
+//  ["02"]=>
+//  string(8) "Lemesós"
+//  ["05"]=>
+//  string(6) "Páfos"
+//}
+
+// get region/state name based on given code
+var_dump ($state_code->getName ('CY', '02'));
+//string(8) "Lemesós"
+
+// get region/state code based on given name
+var_dump ($state_code->get ('US', 'Alabama'));
+//string(2) "AL"
+
+// check if given country / state code combo is valid
+var_dump ($state_code->isValid ('AB', 'CD'));
+//bool(false)
+
+// check if given country / state code combo is valid
+var_dump ($state_code->isValid ('RS', '03'));
+//bool(true)
+```
