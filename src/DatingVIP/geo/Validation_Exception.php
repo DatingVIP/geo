@@ -2,7 +2,7 @@
 /**
  * Validation Exception
  *
- * @package	DatingVIP
+ * @package DatingVIP
  * @subpackage geo
  * @author Boris Momcilovic <boris@firstbeatmedia.com>
  * @copyright &copy; 2014 firstbeatmedia.com
