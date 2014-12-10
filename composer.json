@@ -17,8 +17,6 @@
         "php": ">=5.4.0"
     },
     "autoload": {
-        "psr-4": {
-            "DatingVIP\\geo\\": "src"
-        }
+        "classmap": ["src"]
     }
 }
