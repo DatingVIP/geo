@@ -2255,6 +2255,7 @@ class State_Code
             'RJ' => 'Rājasthān',
             'SK' => 'Sikkim',
             'TN' => 'Tamil Nādu',
+            'TG' => 'Telangana',
             'TR' => 'Tripura',
             'UL' => 'Uttaranchal',
             'UP' => 'Uttar Pradesh',
