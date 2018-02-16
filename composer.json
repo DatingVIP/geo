@@ -4,7 +4,7 @@
     "description": "Geographical data helpers",
     "keywords": ["geo", "postal code", "validation", "ISO 3166-1", "ISO 3166-2", "FIPS 10-4"],
     "homepage": "https://github.com/DatingVIP/geo",
-    "license": "LGPLv3",
+    "license": "LGPL-3.0-or-later",
     "authors": [
         {
             "name": "Boris Momčilović",
