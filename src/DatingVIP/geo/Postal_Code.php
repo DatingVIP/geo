@@ -135,7 +135,7 @@ class Postal_Code
         'IQ' => ['#####'],                             // Iraq
         'IE' => [],                                    // Ireland
         'IM' => [],                                    // Isle of Man
-        'IL' => ['#######'],                           // Israel
+        'IL' => ['##### ##'],                           // Israel
         'IT' => ['#####'],                             // Italy
         'JM' => ['JM@@@##'],                           // Jamaica
         'JP' => ['###-####', '#######'],               // Japan
