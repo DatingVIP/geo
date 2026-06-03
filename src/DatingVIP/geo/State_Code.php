@@ -182,6 +182,7 @@ class State_Code
         ],
         'AR' =>
         [
+            'F' => 'La Rioja',
             'C' => 'Ciudad Autónoma de Buenos Aires',
             'B' => 'Buenos Aires',
             'K' => 'Catamarca',
@@ -341,6 +342,8 @@ class State_Code
         ],
         'BD' =>
         [
+            'H' => 'Mymensingh Division',
+            'F' => 'Rangpur Division',
             '1' => 'Barisal bibhag',
             '2' => 'Chittagong bibhag',
             '3' => 'Dhaka bibhag',
@@ -613,6 +616,7 @@ class State_Code
         ],
         'BS' =>
         [
+            'NP' => 'New Providence',
             'AC' => 'Acklins Islands',
             'BY' => 'Berry Islands',
             'BI' => 'Bimini and Cat Cay',
@@ -671,6 +675,7 @@ class State_Code
         ],
         'BW' =>
         [
+            'GA' => 'Gaborone',
             'CE' => 'Central',
             'GH' => 'Ghanzi',
             'KG' => 'Kgalagadi',
@@ -719,6 +724,7 @@ class State_Code
         ],
         'CD' =>
         [
+            'HK' => 'Haut-Katanga',
             'KN' => 'Kinshasa',
             'BN' => 'Bandundu',
             'BC' => 'Bas-Congo',
@@ -819,6 +825,7 @@ class State_Code
         ],
         'CL' =>
         [
+            'NB' => 'Ñuble',
             'AI' => 'Aisén del General Carlos Ibáñez del Campo',
             'AN' => 'Antofagasta',
             'AR' => 'Araucanía',
@@ -986,6 +993,10 @@ class State_Code
         ],
         'CZ' =>
         [
+            '642' => 'Město Brno',
+            '635' => 'Žďár nad Sázavou District',
+            '10' => 'Prague',
+            '643' => 'Okres Brno-venkov',
             'JC' => 'Jihočeský kraj',
             'JM' => 'Jihomoravský kraj',
             'KA' => 'Karlovarský kraj',
@@ -1143,6 +1154,7 @@ class State_Code
         ],
         'DO' =>
         [
+            '32' => 'Santo Domingo Province',
             '01' => 'Distrito Nacional (Santo Domingo)',
             '02' => 'Azua',
             '03' => 'Bahoruco',
@@ -1254,21 +1266,42 @@ class State_Code
         ],
         'EE' =>
         [
-            '37' => 'Harjumaa',
-            '39' => 'Hiiumaa',
-            '44' => 'Ida-Virumaa',
-            '49' => 'Jõgevamaa',
-            '51' => 'Järvamaa',
-            '57' => 'Läänemaa',
-            '59' => 'Lääne-Virumaa',
-            '65' => 'Põlvamaa',
-            '67' => 'Pärnumaa',
-            '70' => 'Raplamaa',
-            '74' => 'Saaremaa',
-            '78' => 'Tartumaa',
-            '82' => 'Valgamaa',
-            '84' => 'Viljandimaa',
-            '86' => 'Võrumaa',
+            '793' => 'Tartu linn',
+            '624' => 'Pärnu linn',
+            '511' => 'Narva linn',
+            '663' => 'Rakvere linn',
+            '897' => 'Viljandi linn',
+            '796' => 'Tartu vald',
+            '446' => 'Maardu linn',
+            '296' => 'Keila linn',
+            '184' => 'Haapsalu linn',
+            '792' => 'Tapa vald',
+            '719' => 'Saku vald',
+            '622' => 'Põlva Parish',
+            '919' => 'Võru linn',
+            '890' => 'Viimsi Parish',
+            '735' => 'Sillamäe linn',
+            '247' => 'Jõgeva vald',
+            '653' => 'Rae vald',
+            '714' => 'Saaremaa vald',
+            '251' => 'Jõhvi vald',
+            '171' => 'Elva vald',
+            '668' => 'Rapla vald',
+            '272' => 'Kadrina vald',
+            '205' => 'Hiiumaa vald',
+            '353' => 'Kuusalu vald',
+            '245' => 'Jõelähtme Parish',
+            '899' => 'Viljandi vald',
+            '528' => 'Nõo vald',
+            '255' => 'Järva vald',
+            '430' => 'Lääneranna vald',
+            '903' => 'Viru-Nigula vald',
+            '480' => 'Mulgi vald',
+            '317' => 'Kohila vald',
+            '567' => 'Paide linn',
+            '834' => 'Türi vald',
+            '784' => 'Tallinn',
+            '321' => 'Kohtla-Järve linn',
         ],
         'EG' =>
         [
@@ -1398,20 +1431,31 @@ class State_Code
         ],
         'FI' =>
         [
-            'AL' => 'Ahvenanmaan lääni',
-            'ES' => 'Etelä-Suomen lääni',
-            'IS' => 'Itä-Suomen lääni',
-            'LL' => 'Lapin lääni',
-            'LS' => 'Länsi-Suomen lääni',
-            'OL' => 'Oulun lääni',
+            '08' => 'Central Finland',
+            '16' => 'Paijat-Hame Region',
+            '12' => 'Ostrobothnia',
+            '15' => 'North Savo',
+            '10' => 'Lapland',
+            '17' => 'Satakunta',
+            '06' => 'Kanta-Häme',
+            '13' => 'North Karelia',
+            '09' => 'Kymenlaakso',
+            '05' => 'Kainuu',
+            '07' => 'Central Ostrobothnia',
+            '04' => 'Southern Savonia',
+            '18' => 'Uusimaa',
+            '11' => 'Pirkanmaa',
+            '14' => 'North Ostrobothnia',
+            '19' => 'Southwest Finland',
+            '02' => 'South Karelia Region',
+            '03' => 'South Ostrobothnia',
         ],
         'FJ' =>
         [
-            'C' => 'Central',
-            'E' => 'Eastern',
-            'N' => 'Northern',
-            'W' => 'Western',
-            'R' => 'Rotuma',
+            '11' => 'Ra Province',
+            '14' => 'Tailevu Province',
+            '12' => 'Rewa Province',
+            '01' => 'Ba Province',
         ],
         'FM' =>
         [
@@ -1422,6 +1466,11 @@ class State_Code
         ],
         'FR' =>
         [
+            'IDF' => 'Île-de-France',
+            'GES' => 'Grand Est',
+            'ARA' => 'Rhône-Alpes',
+            'PDL' => 'Pays de la Loire',
+            'NAQ' => 'New Aquitaine',
             'A' => 'Alsace',
             'B' => 'Aquitaine',
             'C' => 'Auvergne',
@@ -1568,6 +1617,17 @@ class State_Code
         ],
         'GB' =>
         [
+            'DRS' => 'Derry City and Strabane',
+            'MUL' => 'Mid Ulster',
+            'BCP' => 'Bournemouth, Christchurch and Poole',
+            'WNH' => 'West Northamptonshire',
+            'NNH' => 'North Northamptonshire',
+            'WIL' => 'Wiltshire',
+            'MEA' => 'Mid and East Antrim',
+            'ANN' => 'Antrim and Newtownabbey',
+            'NMD' => 'Newry Mourne and Down',
+            'AND' => 'Ards and North Down',
+            'LBC' => 'Lisburn and Castlereagh',
             'ENG' => 'England',
             'SCT' => 'Scotland',
             'NIR' => 'Northern Ireland',
@@ -1989,28 +2049,21 @@ class State_Code
         ],
         'GT' =>
         [
-            'AV' => 'Alta Verapaz',
-            'BV' => 'Baja Verapaz',
-            'CM' => 'Chimaltenango',
-            'CQ' => 'Chiquimula',
-            'PR' => 'El Progreso',
-            'ES' => 'Escuintla',
-            'GU' => 'Guatemala',
-            'HU' => 'Huehuetenango',
-            'IZ' => 'Izabal',
-            'JA' => 'Jalapa',
-            'JU' => 'Jutiapa',
-            'PE' => 'Petén',
-            'QZ' => 'Quetzaltenango',
-            'QC' => 'Quiché',
-            'RE' => 'Retalhuleu',
-            'SA' => 'Sacatepéquez',
-            'SM' => 'San Marcos',
-            'SR' => 'Santa Rosa',
-            'SO' => 'Sololá',
-            'SU' => 'Suchitepéquez',
-            'TO' => 'Totonicapán',
-            'ZA' => 'Zacapa',
+            '03' => 'Sacatepéquez',
+            '13' => 'Departamento de Huehuetenango',
+            '15' => 'Baja Verapaz',
+            '07' => 'Sololá',
+            '02' => 'El Progreso',
+            '10' => 'Suchitepeque',
+            '14' => 'Quiché',
+            '22' => 'Departamento de Jutiapa',
+            '19' => 'Zacapa',
+            '05' => 'Departamento de Escuintla',
+            '04' => 'Chimaltenango',
+            '01' => 'Guatemala',
+            '21' => 'Jalapa',
+            '09' => 'Quetzaltenango',
+            '16' => 'Alta Verapaz',
         ],
         'GW' =>
         [
@@ -2145,6 +2198,7 @@ class State_Code
         ],
         'ID' =>
         [
+            'KU' => 'North Kalimantan',
             'JW' => 'Jawa',
             'KA' => 'Kalimantan',
             'MA' => 'Maluku',
@@ -2187,6 +2241,7 @@ class State_Code
         ],
         'IE' =>
         [
+            'CO' => 'County Cork',
             'C' => 'Cork',
             'L' => 'Leinster',
             'M' => 'Munster',
@@ -2231,6 +2286,7 @@ class State_Code
         ],
         'IN' =>
         [
+            'CG' => 'Chhattisgarh',
             'AP' => 'Andhra Pradesh',
             'AR' => 'Arunāchal Pradesh',
             'AS' => 'Assam',
@@ -2324,6 +2380,8 @@ class State_Code
         ],
         'IS' =>
         [
+            'HAF' => 'Hafnarfjarðarkaupstaður',
+            'RKV' => 'Reykjavíkurborg',
             '7' => 'Austurland',
             '1' => 'Höfuðborgarsvæðið',
             '6' => 'Norðurland eystra',
@@ -2489,6 +2547,7 @@ class State_Code
         ],
         'JO' =>
         [
+            'IR' => 'Irbid',
             'AJ' => '`Ajlun',
             'AQ' => 'Al `Aqabah',
             'BA' => 'Al Balqā\'',
@@ -2554,13 +2613,47 @@ class State_Code
         ],
         'KE' =>
         [
-            '110' => 'Nairobi Municipality',
-            '200' => 'Central',
-            '300' => 'Coast',
-            '400' => 'Eastern',
-            '500' => 'North-Eastern Kaskazini Mashariki',
-            '700' => 'Rift Valley',
-            '900' => 'Western Magharibi',
+            '22' => 'Machakos County',
+            '03' => 'Bungoma County',
+            '10' => 'Kajiado County',
+            '16' => 'Kisii County',
+            '04' => 'Busia County',
+            '06' => 'Embu County',
+            '15' => 'Kirinyaga County',
+            '18' => 'Kitui County',
+            '14' => 'Kilifi County',
+            '01' => 'Baringo',
+            '26' => 'Meru County',
+            '09' => 'Isiolo County',
+            '34' => 'Nyamira county',
+            '33' => 'Narok County',
+            '23' => 'Makueni County',
+            '20' => 'Laikipia',
+            '25' => 'Marsabit County',
+            '29' => 'Murang\'A',
+            '07' => 'Garissa County',
+            '45' => 'Vihiga County',
+            '37' => 'Samburu County',
+            '47' => 'West Pokot County',
+            '27' => 'Migori County',
+            '02' => 'Bomet County',
+            '11' => 'Kakamega County',
+            '05' => 'Elegeyo-Marakwet',
+            '42' => 'Trans Nzoia',
+            '32' => 'Nandi',
+            '38' => 'Siaya County',
+            '08' => 'Homa Bay County',
+            '43' => 'Turkana County',
+            '41' => 'Tharaka - Nithi',
+            '46' => 'Wajir County',
+            '35' => 'Nyandarua County',
+            '30' => 'Nairobi County',
+            '36' => 'Nyeri County',
+            '28' => 'Mombasa County',
+            '44' => 'Uasin Gishu County',
+            '31' => 'Nakuru County',
+            '17' => 'Kisumu County',
+            '13' => 'Kiambu County',
         ],
         'KG' =>
         [
@@ -2674,22 +2767,25 @@ class State_Code
         ],
         'KZ' =>
         [
-            'ALA' => 'Almaty',
-            'AST' => 'Astana',
-            'ALM' => 'Almaty oblysy',
-            'AKM' => 'Aqmola oblysy',
-            'AKT' => 'Aqtöbe oblysy',
-            'ATY' => 'Atyraū oblysy',
-            'ZAP' => 'Batys Quzaqstan oblysy',
-            'MAN' => 'Mangghystaū oblysy',
-            'YUZ' => 'Ongtüstik Qazaqstan oblysy',
-            'PAV' => 'Pavlodar oblysy',
-            'KAR' => 'Qaraghandy oblysy',
-            'KUS' => 'Qostanay oblysy',
-            'KZY' => 'Qyzylorda oblysy',
-            'VOS' => 'Shyghys Qazaqstan oblysy',
-            'SEV' => 'Soltüstik Quzaqstan oblysy',
-            'ZHA' => 'Zhambyl oblysy',
+            '79' => 'Shymkent',
+            '55' => 'Pavlodar Region',
+            '15' => 'Aktobe',
+            '31' => 'Zhambyl',
+            '11' => 'Aqmola',
+            '10' => 'Abai Region',
+            '43' => 'Kyzylorda',
+            '33' => 'Zhetysu Region',
+            '62' => 'Ulytau Region',
+            '75' => 'Almaty',
+            '71' => 'Astana',
+            '23' => 'Atyrau Oblisi',
+            '63' => 'East Kazakhstan',
+            '19' => 'Almaty Region',
+            '39' => 'Kostanay',
+            '47' => 'Mangystau',
+            '27' => 'West Kazakhstan',
+            '59' => 'North Kazakhstan',
+            '35' => 'Karaganda',
         ],
         'LA' =>
         [
@@ -2805,6 +2901,8 @@ class State_Code
         ],
         'LT' =>
         [
+            '57' => 'Vilnius City Municipality',
+            '20' => 'Klaipėda City Municipality',
             'AL' => 'Alytaus Apskritis',
             'KU' => 'Kauno Apskritis',
             'KL' => 'Klaipėdos Apskritis',
@@ -2818,12 +2916,18 @@ class State_Code
         ],
         'LU' =>
         [
-            'D' => 'Diekirch',
-            'G' => 'Grevenmacher',
-            'L' => 'Luxembourg',
+            'ME' => 'Mersch',
+            'RM' => 'Remich',
+            'DI' => 'Diekirch',
+            'GR' => 'Grevenmacher',
+            'RD' => 'Redange',
+            'CA' => 'Capellen',
+            'LU' => 'Luxembourg',
+            'ES' => 'Esch-sur-Alzette',
         ],
         'LV' =>
         [
+            '113' => 'Valmiera',
             'AI' => 'Aizkraukle Apriņķis',
             'AL' => 'Alūksne Apriņķis',
             'BL' => 'Balvi Apriņķis',
@@ -2886,6 +2990,7 @@ class State_Code
         ],
         'MA' =>
         [
+            'MAR' => 'Marrakech',
             '09' => 'Chaouia-Ouardigha',
             '10' => 'Doukhala-Abda',
             '05' => 'Fès-Boulemane',
@@ -3073,6 +3178,9 @@ class State_Code
         ],
         'MK' =>
         [
+            '410' => 'Strumica',
+            '807' => 'Ilinden',
+            '609' => 'Tetovo',
             '01' => 'Aerodrom',
             '02' => 'Aračinovo',
             '03' => 'Berovo',
@@ -3160,6 +3268,7 @@ class State_Code
         ],
         'ML' =>
         [
+            'BKO' => 'Bamako',
             'BK0' => 'Bamako',
             '7' => 'Gao',
             '1' => 'Kayes',
@@ -3381,7 +3490,7 @@ class State_Code
         ],
         'MX' =>
         [
-            'DIF' => 'Distrito Federal',
+            'CMX' => 'Ciudad de México',
             'AGU' => 'Aguascalientes',
             'BCN' => 'Baja California',
             'BCS' => 'Baja California Sur',
@@ -3551,6 +3660,9 @@ class State_Code
         ],
         'NO' =>
         [
+            '46' => 'Vestland',
+            '34' => 'Innlandet',
+            '42' => 'Agder',
             '02' => 'Akershus',
             '09' => 'Aust-Agder',
             '06' => 'Buskerud',
@@ -3575,25 +3687,13 @@ class State_Code
         ],
         'NP' =>
         [
-            '1' => 'Madhyamanchal',
-            '2' => 'Madhya Pashchimanchal',
-            '3' => 'Pashchimanchal',
-            '4' => 'Purwanchal',
-            '5' => 'Sudur Pashchimanchal',
-            'BA' => 'Bagmati',
-            'BH' => 'Bheri',
-            'DH' => 'Dhawalagiri',
-            'GA' => 'Gandaki',
-            'JA' => 'Janakpur',
-            'KA' => 'Karnali',
-            'KO' => 'Kosi',
-            'LU' => 'Lumbini',
-            'MA' => 'Mahakali',
-            'ME' => 'Mechi',
-            'NA' => 'Narayani',
-            'RA' => 'Rapti',
-            'SA' => 'Sagarmatha',
-            'SE' => 'Seti',
+            'P6' => 'Karnali Pradesh',
+            'P3' => 'Bagmati Province',
+            'P7' => 'Sudurpashchim Pradesh',
+            'P1' => 'Koshi',
+            'P5' => 'Lumbini Province',
+            'P2' => 'Madhesh',
+            'P4' => 'Gandaki Pradesh',
         ],
         'NR' =>
         [
@@ -3648,6 +3748,7 @@ class State_Code
         ],
         'PA' =>
         [
+            '10' => 'Panamá Oeste Province',
             '1' => 'Bocas del Toro',
             '4' => 'Chiriquí',
             '2' => 'Coclé',
@@ -3815,6 +3916,7 @@ class State_Code
         ],
         'PK' =>
         [
+            'KP' => 'Khyber Pakhtunkhwa',
             'IS' => 'Islamabad',
             'BA' => 'Balochistan',
             'NW' => 'North-West Frontier',
@@ -3826,22 +3928,22 @@ class State_Code
         ],
         'PL' =>
         [
-            'DS' => 'Dolnośląskie',
-            'KP' => 'Kujawsko-pomorskie',
-            'LU' => 'Lubelskie',
-            'LB' => 'Lubuskie',
-            'LD' => 'Łódzkie',
-            'MA' => 'Małopolskie',
-            'MZ' => 'Mazowieckie',
-            'OP' => 'Opolskie',
-            'PK' => 'Podkarpackie',
-            'PD' => 'Podlaskie',
-            'PM' => 'Pomorskie',
-            'SL' => 'Śląskie',
-            'SK' => 'Świętokrzyskie',
-            'WN' => 'Warmińsko-mazurskie',
-            'WP' => 'Wielkopolskie',
-            'ZP' => 'Zachodniopomorskie',
+            '22' => 'Pomerania',
+            '02' => 'Lower Silesia',
+            '04' => 'Kujawsko-Pomorskie',
+            '14' => 'Mazovia',
+            '24' => 'Silesia',
+            '12' => 'Lesser Poland',
+            '08' => 'Lubusz',
+            '10' => 'Łódź Voivodeship',
+            '20' => 'Podlasie',
+            '30' => 'Greater Poland',
+            '26' => 'Świętokrzyskie',
+            '06' => 'Lublin',
+            '32' => 'West Pomerania',
+            '28' => 'Warmia-Masuria',
+            '18' => 'Subcarpathia',
+            '16' => 'Opole Voivodeship',
         ],
         'PS' =>
         [
@@ -4670,6 +4772,7 @@ class State_Code
         ],
         'TJ' =>
         [
+            'DU' => 'Dushanbe',
             'GB' => 'Gorno-Badakhshan',
             'KT' => 'Khatlon',
             'SU' => 'Sughd',
@@ -4850,6 +4953,7 @@ class State_Code
         ],
         'TW' =>
         [
+            'NWT' => 'New Taipei City',
             'CHA' => 'Changhua',
             'CYQ' => 'Chiayi',
             'HSQ' => 'Hsinchu',
@@ -5170,6 +5274,10 @@ class State_Code
         ],
         'VN' =>
         [
+            'SG' => 'Ho Chi Minh',
+            'HN' => 'Hanoi',
+            'HP' => 'Haiphong',
+            'DN' => 'Da Nang',
             '44' => 'An Giang',
             '43' => 'Bà Rịa - Vũng Tàu',
             '53' => 'Bắc Kạn',
@@ -5285,8 +5393,8 @@ class State_Code
         [
             'EC' => 'Eastern Cape',
             'FS' => 'Free State',
-            'GT' => 'Gauteng',
-            'NL' => 'Kwazulu-Natal',
+            'GP' => 'Gauteng',
+            'KZN' => 'Kwazulu-Natal',
             'LP' => 'Limpopo',
             'MP' => 'Mpumalanga',
             'NC' => 'Northern Cape',
@@ -5318,6 +5426,221 @@ class State_Code
             'MS' => 'Matabeleland South',
             'MI' => 'Midlands',
         ],
+        'BM' =>
+        [
+            'HC' => 'Hamilton city',
+            'WA' => 'Warwick Parish',
+            'PB' => 'Pembroke Parish',
+            'DS' => 'Devonshire Parish',
+            'SH' => 'Southampton Parish',
+            'SA' => 'Sandys Parish',
+            'GC' => 'Saint George',
+            'SM' => 'Smith\'s Parish',
+            'SG' => 'Saint George\'s Parish',
+            'HA' => 'Hamilton',
+            'PG' => 'Paget',
+        ],
+        'HK' =>
+        [
+            'NST' => 'Sha Tin',
+            'KKC' => 'Kowloon City',
+            'NYL' => 'Yuen Long District',
+            'KYT' => 'Yau Tsim Mong District',
+            'KKT' => 'Kwun Tong District',
+            'NSK' => 'Sai Kung District',
+            'NKT' => 'Kwai Tsing District',
+            'NTM' => 'Tuen Mun',
+            'HEA' => 'Eastern District',
+            'KSS' => 'Sham Shui Po District',
+            'NIS' => 'Islands',
+            'NTP' => 'Tai Po District',
+            'HWC' => 'Wan Chai',
+            'HCW' => 'Central and Western',
+            'NTW' => 'Tsuen Wan District',
+            'KWT' => 'Wong Tai Sin District',
+            'NNO' => 'North District',
+            'HSO' => 'Southern District',
+        ],
+        'NC' =>
+        [
+            'S' => 'South Province',
+            'N' => 'North Province',
+        ],
+        'PS' =>
+        [
+            'RBH' => 'Ramallah and al-Bireh Governorate',
+            'NBS' => 'Nablus Governorate',
+            'GZA' => 'Gaza Governorate',
+            'HBN' => 'Hebron',
+            'BTH' => 'Bethlehem Governorate',
+            'JEN' => 'Jenin Governorate',
+            'TKM' => 'Tulkarm Governorate',
+            'QQA' => 'Qalqilya Governorate',
+            'JRH' => 'Jericho Governorate',
+            'JEM' => 'Quds Governorate',
+            'RFH' => 'Rafah Governorate',
+            'DEB' => 'Deir al-Balah Governorate',
+            'KYS' => 'Khan Yunis Governorate',
+            'NGZ' => 'North Gaza Governorate',
+            'SLT' => 'Salfit Governorate',
+            'TBS' => 'Tubas Governorate',
+        ],
+    ];
+
+/**
+ * Superseded subdivision codes (legacy data): validate but not offered in dropdowns.
+ *
+ * @var array $aliases
+ * @access protected
+ * @static
+ */
+    protected static $aliases =
+    [
+        'ZA' =>
+        [
+            'GT' => 'Gauteng',
+            'NL' => 'Kwazulu-Natal',
+        ],
+        'MX' =>
+        [
+            'DIF' => 'Distrito Federal',
+        ],
+        'KE' =>
+        [
+            '110' => 'Nairobi Municipality',
+            '200' => 'Central',
+            '300' => 'Coast',
+            '400' => 'Eastern',
+            '500' => 'North-Eastern Kaskazini Mashariki',
+            '700' => 'Rift Valley',
+            '900' => 'Western Magharibi',
+        ],
+        'PL' =>
+        [
+            'DS' => 'Dolnośląskie',
+            'KP' => 'Kujawsko-pomorskie',
+            'LU' => 'Lubelskie',
+            'LB' => 'Lubuskie',
+            'LD' => 'Łódzkie',
+            'MA' => 'Małopolskie',
+            'MZ' => 'Mazowieckie',
+            'OP' => 'Opolskie',
+            'PK' => 'Podkarpackie',
+            'PD' => 'Podlaskie',
+            'PM' => 'Pomorskie',
+            'SL' => 'Śląskie',
+            'SK' => 'Świętokrzyskie',
+            'WN' => 'Warmińsko-mazurskie',
+            'WP' => 'Wielkopolskie',
+            'ZP' => 'Zachodniopomorskie',
+        ],
+        'KZ' =>
+        [
+            'ALA' => 'Almaty',
+            'AST' => 'Astana',
+            'ALM' => 'Almaty oblysy',
+            'AKM' => 'Aqmola oblysy',
+            'AKT' => 'Aqtöbe oblysy',
+            'ATY' => 'Atyraū oblysy',
+            'ZAP' => 'Batys Quzaqstan oblysy',
+            'MAN' => 'Mangghystaū oblysy',
+            'YUZ' => 'Ongtüstik Qazaqstan oblysy',
+            'PAV' => 'Pavlodar oblysy',
+            'KAR' => 'Qaraghandy oblysy',
+            'KUS' => 'Qostanay oblysy',
+            'KZY' => 'Qyzylorda oblysy',
+            'VOS' => 'Shyghys Qazaqstan oblysy',
+            'SEV' => 'Soltüstik Quzaqstan oblysy',
+            'ZHA' => 'Zhambyl oblysy',
+        ],
+        'GT' =>
+        [
+            'AV' => 'Alta Verapaz',
+            'BV' => 'Baja Verapaz',
+            'CM' => 'Chimaltenango',
+            'CQ' => 'Chiquimula',
+            'PR' => 'El Progreso',
+            'ES' => 'Escuintla',
+            'GU' => 'Guatemala',
+            'HU' => 'Huehuetenango',
+            'IZ' => 'Izabal',
+            'JA' => 'Jalapa',
+            'JU' => 'Jutiapa',
+            'PE' => 'Petén',
+            'QZ' => 'Quetzaltenango',
+            'QC' => 'Quiché',
+            'RE' => 'Retalhuleu',
+            'SA' => 'Sacatepéquez',
+            'SM' => 'San Marcos',
+            'SR' => 'Santa Rosa',
+            'SO' => 'Sololá',
+            'SU' => 'Suchitepéquez',
+            'TO' => 'Totonicapán',
+            'ZA' => 'Zacapa',
+        ],
+        'NP' =>
+        [
+            '1' => 'Madhyamanchal',
+            '2' => 'Madhya Pashchimanchal',
+            '3' => 'Pashchimanchal',
+            '4' => 'Purwanchal',
+            '5' => 'Sudur Pashchimanchal',
+            'BA' => 'Bagmati',
+            'BH' => 'Bheri',
+            'DH' => 'Dhawalagiri',
+            'GA' => 'Gandaki',
+            'JA' => 'Janakpur',
+            'KA' => 'Karnali',
+            'KO' => 'Kosi',
+            'LU' => 'Lumbini',
+            'MA' => 'Mahakali',
+            'ME' => 'Mechi',
+            'NA' => 'Narayani',
+            'RA' => 'Rapti',
+            'SA' => 'Sagarmatha',
+            'SE' => 'Seti',
+        ],
+        'FI' =>
+        [
+            'AL' => 'Ahvenanmaan lääni',
+            'ES' => 'Etelä-Suomen lääni',
+            'IS' => 'Itä-Suomen lääni',
+            'LL' => 'Lapin lääni',
+            'LS' => 'Länsi-Suomen lääni',
+            'OL' => 'Oulun lääni',
+        ],
+        'FJ' =>
+        [
+            'C' => 'Central',
+            'E' => 'Eastern',
+            'N' => 'Northern',
+            'W' => 'Western',
+            'R' => 'Rotuma',
+        ],
+        'EE' =>
+        [
+            '37' => 'Harjumaa',
+            '39' => 'Hiiumaa',
+            '44' => 'Ida-Virumaa',
+            '49' => 'Jõgevamaa',
+            '51' => 'Järvamaa',
+            '57' => 'Läänemaa',
+            '59' => 'Lääne-Virumaa',
+            '65' => 'Põlvamaa',
+            '67' => 'Pärnumaa',
+            '70' => 'Raplamaa',
+            '74' => 'Saaremaa',
+            '78' => 'Tartumaa',
+            '82' => 'Valgamaa',
+            '84' => 'Viljandimaa',
+            '86' => 'Võrumaa',
+        ],
+        'LU' =>
+        [
+            'D' => 'Diekirch',
+            'G' => 'Grevenmacher',
+            'L' => 'Luxembourg',
+        ],
     ];
 
 /**
@@ -5342,7 +5665,12 @@ class State_Code
  */
     public function getName($country_code, $state_code)
     {
-        return $this->isValid ($country_code, $state_code) ? self::$states[$country_code][$state_code] : '';
+        if (!$this->isValid ($country_code, $state_code)) {
+            return '';
+        }
+
+        return self::$states[$country_code][$state_code]
+            ?? (self::$aliases[$country_code][$state_code] ?? '');
     }
 
 /**
@@ -5370,7 +5698,9 @@ class State_Code
  */
     public function isValid($country_code, $state_code)
     {
-        return $this->isValidCountry ($country_code) && is_scalar ($state_code) && array_key_exists ((string) $state_code, self::$states[$country_code]);
+        return $this->isValidCountry ($country_code) && is_scalar ($state_code)
+            && (array_key_exists ((string) $state_code, self::$states[$country_code])
+                || array_key_exists ((string) $state_code, self::$aliases[$country_code] ?? []));
     }
 
 /**
